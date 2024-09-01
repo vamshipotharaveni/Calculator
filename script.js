@@ -219,106 +219,110 @@ switch(oprt) {
     //--------------adding numbers second part----------
 
     oneButton.addEventListener('click',()=>{
-        if (storing.length<=16){
-        storing+="1"
+        if (storing.length>=16){
+            alert("Number Limit Exceed")
         }
         else{
-            alert("Number Limit Exceed")
+            storing+="1"
         }
         resbutton.innerText=storing;
         back(storing);
     });
     twoButton.addEventListener('click',()=>{
-        if (storing.length<=16){
-            storing+="2"
+        if (storing.length>=16){
+            alert("Number Limit Exceed")
             }
             else{
-                alert("Number Limit Exceed")
+                storing+="2"
             }
         resbutton.innerText=storing;
         back(storing);
     });
     threeButton.addEventListener('click',()=>{
-        if (storing.length<=16){
-            storing+="3"
+        if (storing.length>=16){
+            alert("Number Limit Exceed")
             }
             else{
-                alert("Number Limit Exceed")
+                storing+="3"
             }
         resbutton.innerText=storing;
         back(storing);
     });
     fourButton.addEventListener('click',()=>{
-        if (storing.length<=16){
-            storing+="4"
+        if (storing.length>=16){
+            alert("Number Limit Exceed")
             }
             else{
-                alert("Number Limit Exceed")
+                storing+="4"
             }
         resbutton.innerText=storing;
         back(storing);
     });
     fiveButton.addEventListener('click',()=>{
-        if (storing.length<=16){
-            storing+="5"
+        if (storing.length>=16){
+            alert("Number Limit Exceed")
             }
             else{
-                alert("Number Limit Exceed")
+                storing+="5"
             }
         resbutton.innerText=storing;
         back(storing);
     });
     sixButton.addEventListener('click',()=>{
-        if (storing.length<=16){
-            storing+="6"
+        if (storing.length>=16){
+            alert("Number Limit Exceed")
             }
             else{
-                alert("Number Limit Exceed")
+                storing+="6"
             }
         resbutton.innerText=storing;
         back(storing);
     });
     sevenButton.addEventListener('click',()=>{
-        if (storing.length<=16){
-            storing+="7"
+        if (storing.length>=16){
+            alert("Number Limit Exceed")
             }
             else{
-                alert("Number Limit Exceed")
+                storing+="7"
             }
         resbutton.innerText=storing;
         back(storing);
     });
     eightButton.addEventListener('click',()=>{
-        if (storing.length<=16){
-            storing+="8"
+        if (storing.length>=16){
+            alert("Number Limit Exceed")
             }
             else{
-                alert("Number Limit Exceed")
+                storing+="8"
             }
         resbutton.innerText=storing;
         back(storing);
     });
     nineButton.addEventListener('click',()=>{
-        if (storing.length<=16){
-            storing+="9"
+        if (storing.length>=16){
+            alert("Number Limit Exceed")
             }
             else{
-                alert("Number Limit Exceed")
+                storing+="9"
             }
         resbutton.innerText=storing;
         back(storing);
     });
     zeroButton.addEventListener('click',()=>{
-        if (storing.length<=16){
-            storing+="0"
+        if (storing.length>=16){
+            alert("Number Limit Exceed")
             }else{
-                alert("Number Limit Exceed")
+                 storing+="0"
             }
         resbutton.innerText=storing;
         back(storing);
     });
     doubloButton.addEventListener('click',()=>{
-        storing+="00"
+        if (storing.length>=16){
+            alert("Number Limit Exceed")
+            }else{
+                storing+="00"
+            }
         resbutton.innerText=storing;
         back(storing);
     });
